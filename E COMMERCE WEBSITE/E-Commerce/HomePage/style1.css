@@ -1,0 +1,326 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  * {
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+  .welcome {
+    color: #3d42bb;
+    text-align: left;
+    font: 550 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 120px;
+    top: 148px;
+  }
+
+  .wel_rect {
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 1px;
+  
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .wel_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+    top: 135px;
+  }
+
+  #accounts .acc_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 250px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .acc_button {
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #accounts :hover {
+    background-color: #d7d5d5;
+    cursor: pointer;
+  }
+
+  .acc_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 60px;
+    top: 259px;
+  }
+
+  .profile-address {
+    color: #5aa5bd;
+    text-align: left;
+    font: 300 16px "Poppins", sans-serif;
+    position: absolute;
+    left: 140px;
+    top: 300px;
+  }
+
+  #yourorders .yourorders_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .yourorders_button {
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #yourorders :hover {
+    background-color: #d7d5d5;
+    cursor: pointer;
+  }
+
+  .yourorders_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 460px;
+    top: 259px;
+  }
+
+  .orders-cancelledorders {
+    color: #5aa5bd;
+    text-align: left;
+    font: 300 16px "Poppins", sans-serif;
+    position: absolute;
+    left: 520px;
+    top: 300px;
+  }
+
+  #payment .payment_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 50px;
+    top: 380px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .payment_button {
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #payment :hover {
+    background-color: #d7d5d5;
+    cursor: pointer;
+  }
+
+  .payment_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 60px;
+    top: 390px;
+  }
+
+  .carddetails {
+    color: #5aa5bd;
+    text-align: left;
+    font: 300 16px "Poppins", sans-serif;
+    position: absolute;
+    left: 135px;
+    top: 430px;
+  }
+
+  #selleraccount .sell_account_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 850px;
+    top: 250px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .sell_account_button {
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #selleraccount :hover {
+    background-color: #d7d5d5;
+    cursor: pointer;
+  }
+
+  .sell_account_img {
+    width: 45px;
+    height: 55px;
+    position: absolute;
+    left: 860px;
+    top: 259px;
+  }
+
+  .sellerdetails {
+    color: #5aa5bd;
+    text-align: left;
+    font: 300 16px "Poppins", sans-serif;
+    position: absolute;
+    left: 910px;
+    top: 300px;
+  }
+
+  #settings .settings_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 450px;
+    top: 380px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .settings_button {
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #settings :hover {
+    background-color: #d7d5d5;
+    cursor: pointer;
+  }
+
+  .settings_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 460px;
+    top: 390px;
+  }
+
+  .notifications-theme {
+    color: #5aa5bd;
+    text-align: left;
+    font: 300 16px "Poppins", sans-serif;
+    position: absolute;
+    left: 545px;
+    top: 430px;
+  }
+
+  #signout .signout_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    left: 850px;
+    top: 380px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .signout_button {
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #signout :hover {
+    background-color: #d7d5d5;
+    cursor: pointer;
+  }
+
+  .signout_img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 860px;
+    top: 390px;
+  }
+
+  #exit .exit_button {
+    background: #ffffff;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #000000;
+    border-width: 0.5px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 50px;
+    top: 550px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  }
+
+  .exit_button {
+    color: #000000;
+    text-align: flex;
+    font: 500 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 130px;
+    top: 351px;
+  }
+
+  #exit :hover {
+    background-color: #f63c52;;
+    cursor: pointer;
+  }
