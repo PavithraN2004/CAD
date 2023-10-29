@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f6ec;
+}
+.acc_rect
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 170px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.acc{
+    color: #000000;
+    text-align: flex;
+    font: 600 24px "Poppins", sans-serif;
+    position: absolute;
+    left: 120px;
+    top: 40px;
+}
+.acc_img
+{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 35px;
+    top: 25px;
+}
+.rectangle
+{
+    border-radius: 20px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 1250px;
+    height: 470px;
+    position: absolute;
+    left: 20px;
+    top: 120px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#form .user_name
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 40px; 
+}
+#form .user_name_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 30px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute;
+}
+#form .email_id
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 40px;  
+}
+#form .email_id_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 480px;
+    height: 50px;
+    position: absolute;
+    left: 680px;
+    top: 30px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute; 
+}
+#form .firstname
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 125px;   
+}
+#form .firstname_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 120px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute; 
+}
+#form .password
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 125px;   
+}
+#form .password_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 680px;
+    top: 120px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute; 
+}
+#form .lastname
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 40px;
+    top: 215px;   
+}
+#form .lastname_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 210px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute; 
+} 
+#form .mobile_no
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 215px;   
+}
+#form .mobile_no_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    left: 680px;
+    top: 210px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute; 
+}
+#form .delivery_address
+{
+    color: #000000;
+    text-align: flex;
+    font: 600 22px "Poppins", sans-serif;
+    position: absolute;
+    left: 550px;
+    top: 305px;  
+}
+#form .delivery_address_box
+{
+    border-radius: 0px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 400px;
+    height: 110px;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    color:  #0c6fd2;
+    text-align: left;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute; 
+}
+#form .submit
+{
+    border-radius: 10px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 130px;
+    top: 400px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color:  #000000;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute;  
+}
+#form .submit:hover{
+    background-color: #0c6fd2;
+    color:  white;
+    cursor: pointer;
+}
+#form .cancel
+{
+    border-radius: 10px;
+    border-style: solid ;
+    border-color: #000000;
+    border-width: 0.1px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 320px;
+    top: 400px;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    color:  #000000;
+    text-align: center;
+    font: 400 20px "Poppins", sans-serif;
+    position: absolute;   
+}
+#form .cancel:hover{
+    background-color: #f63c52;
+    color:  white; 
+    cursor: pointer;
+}
